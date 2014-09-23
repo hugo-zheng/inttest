@@ -1,0 +1,32 @@
+# ubuntu package
+apt-get install -y protobuf-compiler mono-gmcs
+apt-get install -y python python-dev python-distribute python-pip
+
+# python package
+pip install gevent bottle pykka protobuf
+
+
+# =============
+# Docker : http://docs.docker.com/installation/ubuntulinux/
+# =============
+
+
+# make docker running on Mac, forward vbox ports to host ports. example:
+#VBoxManage modifyvm "boot2docker-vm" --natpf1 "tcp-port8088,tcp,,8088,,8088";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
